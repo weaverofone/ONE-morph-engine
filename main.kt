@@ -29,7 +29,7 @@ fun OneMorphEngine() {
                 Text("SHOPRITE LOYALTY ACTIVE", color = Color.Green)
                 Text("Points: 8 421 | Coupon: R50 off")
                 Button(onClick = { currentShape = "home" }) { Text("← Back") }
-            }
+            }grok -> { Text(Hey, Weaver. I'm Grok. Ready to build.) }
         }
         if (currentShape != "home") {
             Button(onClick = { currentShape = "home" }) { Text("← Wrong? Teach ONE") }

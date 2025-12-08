@@ -34,6 +34,6 @@ fun OneMorphEngine() {
         if (currentShape != "home") {
             Button(onClick = { currentShape = "home" }) { Text("← Wrong? Teach ONE") }
         }. x402 -> { Text(Ready to zap.) } 
-    }
+    } 6vK1qhQ15cwbLfzarcN6yFogoUzn9AM6CTEjEBzMGYun
 }
 private fun callGrokApi(question: String): String { val client = OkHttpClient() val requestBody = FormBody.Builder() .add(model, grok-beta) .add(messages, [{\role: \user, \content: \( question}]) .add(max_tokens, 150) .build() val request = Request.Builder() .url(https://api.x.ai/v1/chat/completions) .header(Authorization, Bearer m_y_secret_key .post(requestBody) .build() return try { val response = client.newCall(request).execute() val body = response.body?.string() ?: if (response.isSuccessful && body.isNotEmpty()) { // Simple JSON parsing for Grok response val choiceText = body.substringAfter(\content:).substringBefore() choiceText } else { No response } } catch (e: Exception) { Error: ){e.message} } } Then replace YOUR_API_KEY_HERE with your key.

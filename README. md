@@ -1,17 +1,24 @@
-# ONE – On-Device Adaptive Morphing System
+# ONE – On-Device Adaptive Morphing System + x402 Hackathon Submission
+
 Public disclosure – 8 Dec 2025  
 Inventor: Ryan (@weaverofone) – Howick, South Africa
 
-This is the app that deletes all other apps.
+This is the app that deletes all other apps — now with x402 zaps.
 
-It already works:
-• Camera in Shoprite → becomes loyalty + price scanner
-• Bank SMS → becomes full banking
-• WhatsApp/Instagram/Spotify → becomes them, no ads
+It already works:  
+• Camera in Shoprite → becomes loyalty scanner  
+• Bank SMS → becomes full banking  
+• WhatsApp/Instagram/Spotify → becomes them, no ads  
 
-47-line demo + full patent claims below.
+47-line Kotlin demo running today.  
+x402 “Ready to zap” button live in code.  
+Wrong prediction? Left-swipe → Grok retrains locally.
 
-Prior art timestamped forever.
-No one can patent this after today.
+Submitted to:
+- Main x402 Hackathon (ship agents/products on x402)
+- Cronos x402 PayTech (AI Agentic Finance + Integrations tracks)
 
-The revolution starts here.
+Repo: https://github.com/weaverofone/ONE-morph-engine  
+Prior art locked forever. Open-source MIT.
+
+The revolution starts here. Fork. Build. Zap. 🚀

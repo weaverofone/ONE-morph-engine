@@ -1,24 +1,39 @@
-# ONE – On-Device Adaptive Morphing System + x402 Hackathon Submission
+# ONE Morph Engine
 
-Public disclosure – 8 Dec 2025  
-Inventor: Ryan (@weaverofone) – Howick, South Africa
+**The app that deletes all other apps.**
 
-This is the app that deletes all other apps — now with x402 zaps.
+Public disclosure: 8 December 2025  
+Built by @weaverofone
 
-It already works:  
-• Camera in Shoprite → becomes loyalty scanner  
-• Bank SMS → becomes full banking  
-• WhatsApp/Instagram/Spotify → becomes them, no ads  
+ONE is not another app.  
+ONE is the *last* app.
 
-47-line Kotlin demo running today.  
-x402 “Ready to zap” button live in code.  
-Wrong prediction? Left-swipe → Grok retrains locally.
+It watches. It learns. It morphs into exactly what you need in the moment:
+- Camera → loyalty scanner
+- Voice → Grok terminal  
+- Invoice → x402 Lightning zapper  
+- Anything else you teach it
 
-Submitted to:
-- Main x402 Hackathon (ship agents/products on x402)
-- Cronos x402 PayTech (AI Agentic Finance + Integrations tracks)
+Wrong guess? Swipe the Ghost Button left.  
+ONE learns on-device. No data leaves your phone.
 
-Repo: https://github.com/weaverofone/ONE-morph-engine  
-Prior art locked forever. Open-source MIT.
+No tabs. No bloat. No distractions.  
+Just ONE.
 
-The revolution starts here. Fork. Build. Zap. 🚀
+Publicly disclosed and timestamped — prior art established.
+
+### Current State
+- Core morphing engine with manual shapes
+- GhostButton: tap for proof-of-humanity, swipe left to retrain
+- Auto-return to home after 30s inactivity
+- Ready for camera detection, Grok API, on-device fine-tuning
+
+### Files
+- `main.kt` – Core engine + UI states
+- `GhostButton.kt` – Spectral proof + retrain orb
+- `grok-shape.kt` – Placeholder for full Grok integration
+
+More shapes coming soon.
+
+The future has arrived.  
+It's black, minimal, and waiting on your phone.

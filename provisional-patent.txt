@@ -1,17 +1,33 @@
-ONE – On-Device Adaptive Morphing System
-Public Disclosure – 8 December 2025
-Inventor: Ryan (@weaverofone) – Howick, South Africa
+ONE Morph Engine – Public Disclosure of Core Invention
+Publicly disclosed: 8 December 2025
+Updated: 13 December 2025
+Inventor: @weaverofone
+GitHub: https://github.com/weaverofone/ONE-morph-engine
 
-Claims (prior art – timestamped forever):
+This file serves as timestamped public disclosure of the core novel concepts behind ONE Morph Engine.
 
-1. A mobile application comprising a single persistent foreground process that dynamically replaces its entire user interface in ≤200 ms with context-specific tools using only on-device sensors, encrypted local history, and quantized LLMs running on the device NPU.
+Core Inventive Concepts (Intended Future Claims):
 
-2. The application of claim 1 wherein all inference, training, and UI generation occur exclusively within the device’s Private Compute Core with cryptographic proof that zero user data ever leaves the device.
+1. A mobile application that dynamically and fully morphs its primary user interface and functional behavior in real time based on contextual inference, enabling a single ambient application instance to replace multiple specialized applications.
 
-3. The method of claim 1 wherein the application actively identifies and facilitates permanent uninstallation of redundant third-party applications, achieving ≥90% reduction in installed apps within 30 days.
+2. A persistent, minimally intrusive floating control element (referred to as "Ghost Button") that supports dual distinct input gestures:
+   • Tap: initiates a proof-of-humanity or device attestation sequence
+   • Leftward horizontal swipe: triggers immediate user-directed on-device retraining or correction of the active morphed state
 
-4. The method of claim 1 wherein incorrect tool predictions are corrected by a single left-swipe gesture that instantly retrains the local model without external communication.
+3. Automatic reversion of the application to a neutral "home" state after a configurable period of inactivity, minimizing cognitive load and preserving ambient readiness.
 
-5. A method of operating a smartphone wherein ≥98% of daily user tasks are performed without launching any third-party application or accessing the app store.
+4. A closed-loop on-device learning mechanism wherein explicit user rejection of an incorrectly morphed state ("Wrong? Teach ONE") is captured and used to improve future context classification without transmitting any user data off-device.
 
-This disclosure establishes prior art. Any patent filed on these claims after 8 Dec 2025 is invalid.
+5. An extensible shape-shifting architecture that supports seamless transitions between high-variance functional modes within the same running application instance, including but not limited to:
+   • Optical loyalty card / QR scanner
+   • Conversational AI terminal (e.g. Grok integration)
+   • Instant payment processor (e.g. x402 Lightning zap)
+   • Arbitrary future tools taught by the user
+
+These concepts are believed to be novel, non-obvious, and useful over existing mobile launchers, assistants, widgets, and context-aware applications.
+
+This public disclosure establishes prior art as of the commit timestamp.
+Future formal patent filing may follow.
+
+The future has arrived.
+It's called ONE.

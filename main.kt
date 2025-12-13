@@ -1,5 +1,7 @@
-// main.kt - ONE Morph Engine Core (Expanded Dec 11 2025)
-// Public disclosure – @weaverofone
+// main.kt - ONE Morph Engine Core
+// Public disclosure – 8 Dec 2025 – @weaverofone
+
+package com.weaverofone.one
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -35,8 +37,10 @@ fun OneMorphEngine() {
     // Auto-return to home after 30 seconds inactivity
     LaunchedEffect(currentShape) {
         if (currentShape != "home") {
-            delay(30000)
-            currentShape = "home"
+            delay(30_000L)
+            if (currentShape != "home") {
+                currentShape = "home"
+            }
         }
     }
 
@@ -89,13 +93,12 @@ fun OneMorphEngine() {
             }
         }
 
-        // Floating Ghost Button with proof + retrain swipe
         GhostButton(
             onProof = { /* Future: cryptographic proof */ },
             onRetrain = {
                 coroutineScope.launch {
                     currentShape = "home"
-                    // Future: trigger local LoRA retrain here
+                    // Future: collect feedback → on-device LoRA prep
                 }
             }
         )
